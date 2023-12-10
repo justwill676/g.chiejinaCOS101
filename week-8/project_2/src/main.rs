@@ -72,7 +72,7 @@ fn main() {
 
 		println!("Input your highest level of education attained");
 		io::stdin().read_line(&mut _hle).expect("Failed to read input");
-		let _hler: String = _hle.trim().parse().expect("Not a valid number");
+		let _hle: String = _hle.trim().parse().expect("Not a valid number");
 		//pushing array into an element
 		userhle.push(_hle.to_string());
 
@@ -113,6 +113,4 @@ fn main() {
     else {
         println!("empty vector");
     }
-
-
 }
